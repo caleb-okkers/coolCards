@@ -40,6 +40,7 @@ body {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .box .imgBx img {
@@ -129,4 +130,24 @@ body {
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 330px) {
+    .box {
+        height: 230px;
+    }
+
+    .box:hover {
+        height: 330px;
+    }
+
+    .box .content h2 {
+        font-size: 16px;
+    }
+
+    .box .content h2 span {
+        font-size: 12px;
+    }
+
+
 }
