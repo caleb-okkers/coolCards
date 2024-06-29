@@ -176,6 +176,9 @@ body {
     
 
 }
+
+/* profile */
+
 .profileBox {
     position: relative;
     width: 450px;
@@ -235,4 +238,17 @@ body {
 .profileBox::before,
 .profileBox::after {
     background: linear-gradient(235deg, #B8860B, #010615, #B8860B);
+}
+
+@media (max-width: 330px) {
+
+    .profileBox {
+        height: 230px !important;
+    }
+
+    .profile {
+        height: 230px;
+    }
+    
+
 }
